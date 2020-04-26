@@ -34,8 +34,8 @@ square_root_of_number()
 
 square_root_of_number <- function(x) {(1:10) ^ (1/2)} # alternatively we could have tried that as well
 square_root_of_number()
- 
- 
+
+
 # cubed sum
 cubedsum <- function(x,y) {
   z <- cubed(x) + cubed(y)
@@ -63,7 +63,7 @@ if (x<0) {
   warning(" no negatives allowed")
 } else {
   sqrt(x)
-  }
+}
 
 
 # A function to calculate you calculate the cubed root, throwing a warning for negative number?
